@@ -44,7 +44,8 @@ li a{
 }
 h1{
   font-family: 'Sansita Swashed';
-  font-size: 2.4rem;
+  font-size: 3.5rem;
+  font-weight: 900;
   line-height: 1.1;
   color: antiquewhite;
 }
@@ -71,21 +72,25 @@ main{
     border-bottom-left-radius: 15px;
     display:flex;
     align-items: center;
-    
-  }
+    }
   .in{
     display:flex;
     flex-direction: column;
     gap:5px;
     margin-left:50px;
     margin-right:70px;
+    text-align: center;
   }
 .color{
   color: #adbc9f;
   font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 .col{
   color: #adbc9f;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
   font-family: 'Open san', sans-serif;
 }
