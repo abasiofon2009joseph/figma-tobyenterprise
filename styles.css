@@ -43,9 +43,10 @@ li a{
   font-family: sans-serif;
 }
 h1{
-  font-family: san-serif;
+  font-family: 'Sansita Swashed';
   font-size: 2.4rem;
   line-height: 1.1;
+  color: antiquewhite;
 }
 
 main{
@@ -75,16 +76,16 @@ main{
   .in{
     display:flex;
     flex-direction: column;
-    gap:30px;
+    gap:5px;
     margin-left:50px;
     margin-right:70px;
   }
 .color{
-  color: antiquewhite;
+  color: #adbc9f;
   font-weight: 700;
 }
 .col{
-  color: antiquewhite;
+  color: #adbc9f;
   font-size: 1.1rem;
   font-family: 'Open san', sans-serif;
 }
