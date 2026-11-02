@@ -76,7 +76,7 @@ main{
   .in{
     display:flex;
     flex-direction: column;
-    gap:7px;
+    gap:px;
     margin-left:50px;
     margin-right:70px;
     text-align: center;
@@ -93,4 +93,15 @@ main{
   font-size: 0.8rem;
   font-weight: 500;
   font-family: 'Open san', sans-serif;
+}
+.leftl{
+  display:flex;
+  padding: 0 20px;
+  gap:8px;
+}
+.imgl{
+  width:80px;
+}
+.imgl>img{
+  width:100%;
 }
