@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#12372A;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: inherit;
+  display: flex;
+  justify-content: flex-begin;
+  align-items: center;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+ul {
+  display:flex;
+  list-style-type: none;
+  gap: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+li a{
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Sansita Swashed",sans-serif;
+  font-weight: 600;
+}
+.logo {
+  color: antiquewhite;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+h1{
+  font-family: san-serif;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+main{
+  margin-top:100px;
+}
+.hero{
+  display:flex;
+  padding: 0 20px;
+}
+  
+  .hero > div{
+    width:50%;
+  }
+  #right>img{
+    width:100%;
+    border-top-right-radius: 15px;
+    border-buttom-right-radius:15px;
+  }
+  #left{
+    background-color: inherit;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display:flex;
+    align-items: center;
+    
+  }
+  .in{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-left:50px;
+    margin-right:70px;
+  }
+.color{
+  color: antiquewhite;
+  font-weight: 700;
+}
+.col{
+  color: antiquewhite;
+  font-size: 1.1rem;
+  font-family: 'Open san', sans-serif;
+}
